@@ -14,4 +14,4 @@ license = "CC0-1.0"
 env_logger = "0.7.1"
 clap = "2.33.0"
 serde_json = "1.0.48"
-pmd_flow = { path = "../pmd_flow" }
+pmd_flow = "1.0.0"
