@@ -1,0 +1,17 @@
+[package]
+name = "flowtool"
+version = "1.0.0"
+authors = ["marius851000 <mariusdavid@laposte.net>"]
+edition = "2018"
+description = "A program that can extract and import flow file from pokemon super mystery dungeon to/from json"
+repository = "https://github.com/marius851000/flowtool"
+keywords = [ "parser", "tool" ]
+categories = [ "command-line-utilities" ]
+license = "CC0-1.0"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+env_logger = "0.7.1"
+clap = "2.33.0"
+serde_json = "1.0.48"
+pmd_flow = { path = "../pmd_flow" }

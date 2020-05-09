@@ -1,0 +1,28 @@
+{
+	"output": [
+		{
+			"FollowGroup": {
+				"debug_groupname": "Main scenario",
+				"data": [
+					{
+						"Scenario": {
+							"flowtype": "normal",
+							"entry": [
+								"hanyou_chourei01"
+							],
+							"comment": "",
+							"socket": {
+								"socket_in": {
+									"start": "$START"
+								},
+								"socket_out": {
+									"next": "$START"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	]
+}
